@@ -62,8 +62,8 @@ return this.getCheckInfo();
   limpiarTitulo.borrar();
   var limpiarDesc = new TextAreaDescComponent(this.firestoreServ, this.storageService);
   limpiarDesc.borrar();
-  var limpiarMenu = new MenuComidaComponent(this.storageService, this.firestoreServ);
-  limpiarMenu.borrar();
+  //var limpiarMenu = new MenuComidaComponent(this.storageService, this.firestoreServ);
+  //limpiarMenu.borrar();
   
   this.storageService.setUploadPercentFoto(0);
   this.storageService.setUploadPercentVideo(0);

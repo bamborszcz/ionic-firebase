@@ -19,12 +19,15 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import { StorageService } from './servicios/storageServices/storage.service';
 import { FirestoreServicesService } from './servicios/firestoreServices/firestore-services.service';
 
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule,
+    HttpClientModule,
     IonicModule.forRoot(),
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig), // inicializa firebase
