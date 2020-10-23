@@ -5,14 +5,14 @@
 export const environment = {
   production: false,
   firebaseConfig: {// conexion a firebase
-    apiKey: '',
-    authDomain: '',
-    databaseURL: '',
-    projectId: '',
-    storageBucket: '',
-    messagingSenderId: '',
-    appId: '',
-    measurementId: ''
+    apiKey: "AIzaSyCIiX5aOHSDzDKmVJ-KIJCrMtkKzxVKqN0",
+    authDomain: "prueba-6efe8.firebaseapp.com",
+    databaseURL: "https://prueba-6efe8.firebaseio.com",
+    projectId: "prueba-6efe8",
+    storageBucket: "prueba-6efe8.appspot.com",
+    messagingSenderId: "1017886741776",
+    appId: "1:1017886741776:web:4b3a43cf253a784fa00195",
+    measurementId: "G-GXETDG12NS"
   } // npm install firebase @angular/fire --save hay que instalar esta dependencia por terminal
 };
 
