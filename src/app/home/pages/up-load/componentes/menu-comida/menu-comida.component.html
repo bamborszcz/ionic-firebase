@@ -1,7 +1,7 @@
-<ion-row>
-    <ion-list>
-        <ion-item>
-            <ion-label>Elegi una Opcion</ion-label>
+<ion-row class="fila">
+    <ion-list class="fila">
+        <ion-item  id="item">
+            <ion-label class="label">Elegí una Opción:</ion-label>
            <!--
                 <ion-select placeholder="" [value]="this.borrar()" (ionChange)="menuComida($event)">
                 <ion-select-option value="carnes">Carnes</ion-select-option>
@@ -13,9 +13,9 @@
                 <ion-select-option value="perfil">Perfil</ion-select-option>
             </ion-select>
            --> 
-           <ion-select>
+           <ion-select id="selector">
                <ng-container *ngFor="let categoria of getCategoriaList()">
-                   <ion-select-option>
+                   <ion-select-option class="my-custom-class">
                     {{categoria.categoria}}
                 </ion-select-option>
                </ng-container>

@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { StorageService } from '../../../servicios/storageServices/storage.service';
+
 import { FirestoreServicesService } from 'src/app/servicios/firestoreServices/firestore-services.service';
 import { InputTituloComponent } from '../input-titulo/input-titulo.component';
 import { TextAreaDescComponent } from '../text-area-desc/text-area-desc.component';
 import { SelectorArchivoComponent } from '../selector-archivo/selector-archivo.component';
 import { MenuComidaComponent } from '../menu-comida/menu-comida.component';
 import { BorrarService } from 'src/app/servicios/borrar/borrar.service';
+import { StorageService } from 'src/app/servicios/storageServices/storage.service';
 
 @Component({
   selector: 'app-botones',

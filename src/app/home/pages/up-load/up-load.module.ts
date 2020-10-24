@@ -8,11 +8,11 @@ import { UpLoadPageRoutingModule } from './up-load-routing.module';
 
 import { UpLoadPage } from './up-load.page';
 
-import { MenuComidaComponent } from '../menu-comida/menu-comida.component';
-import { InputTituloComponent } from '../input-titulo/input-titulo.component';
-import { SelectorArchivoComponent } from '../selector-archivo/selector-archivo.component';
-import { TextAreaDescComponent } from '../text-area-desc/text-area-desc.component';
-import { BotonesComponent } from '../botones/botones.component';
+import { MenuComidaComponent } from '../up-load/componentes/menu-comida/menu-comida.component';
+import { InputTituloComponent } from '../up-load/componentes/input-titulo/input-titulo.component';
+import { SelectorArchivoComponent } from '../up-load/componentes/selector-archivo/selector-archivo.component';
+import { TextAreaDescComponent } from '../up-load/componentes/text-area-desc/text-area-desc.component';
+import { BotonesComponent } from '../up-load/componentes/botones/botones.component';
 
 @NgModule({
   imports: [

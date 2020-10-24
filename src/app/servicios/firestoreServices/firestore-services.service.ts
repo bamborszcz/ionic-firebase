@@ -5,7 +5,6 @@ import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument 
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { fireStoreInterface } from '../../models/fireStoreInterface.interface';
-import { InputTituloComponent } from 'src/app/home/componentes/input-titulo/input-titulo.component';
 
 export interface PortadaUrl extends fireStoreInterface { id: string; fotoUrl: string;  desc: string;
   titulo: string; video: string; }

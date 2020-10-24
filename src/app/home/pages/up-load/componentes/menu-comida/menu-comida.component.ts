@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FirestoreServicesService } from '../../../servicios/firestoreServices/firestore-services.service';
+
 import { StorageService } from 'src/app/servicios/storageServices/storage.service';
 import { CategoriaService } from './servicio/categoria.service';
 
@@ -10,6 +10,9 @@ import { CategoriaService } from './servicio/categoria.service';
 })
 export class MenuComidaComponent implements OnInit {
 
+  
+
+  
   private categoriaList: [] = [];
 
   //public valorMenu: string;
