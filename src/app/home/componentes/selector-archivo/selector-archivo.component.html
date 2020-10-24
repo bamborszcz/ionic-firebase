@@ -1,13 +1,13 @@
 <ion-row>
     <ion-col>
 
-        <input type="file" #reset (change)="elegirArchivoFoto($event)">
+        <input accept="image/png,image/jpeg,image/jpg,image/gif,image/raw"  type="file" #reset (change)="elegirArchivoFoto($event)">
         <ion-label>foto</ion-label>
         <ion-progress-bar color="primary" [value]="storageServicesFoto.getUploadPercentFoto()"></ion-progress-bar>
     </ion-col>
     <ion-col *ngIf="this.firestoreServ.getVideoSelecArchiv()">
 
-        <input type="file" #reset (change)="elegirArchivoVideo($event)">
+        <input accept="video/mp4,video/avi,video/wmv,video/flv" type="file" #reset (change)="elegirArchivoVideo($event)">
         <ion-label>video</ion-label>
         <ion-progress-bar color="primary" [value]="storageServicesVideo.getUploadPercentVideo()"></ion-progress-bar>
     </ion-col>
